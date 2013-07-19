@@ -32,6 +32,4 @@
 # When finished workign on branch, merge with master
 1. "git checkout master"
 2. "git merge mybranch"
-3. "git branch -d mybranch" deletes the branch
-
-dooop a dooop a do!
+3. "git branch -d mybranch" deletes the branch	
