@@ -24,3 +24,12 @@
 2. "git fetch upstream" pull in changes from original without modify my files
 3. "git merge master/upstream" merges any changes with my files
 
+# Branches in a Repository
+1. "git branch mybranch" creates a new branch called mybranch
+2. "git checkout mybranch" makes mybranch the active branch
+3. "git checkout master" or  "git checkout mybranch" to switch select branch
+
+# When finished workign on branch, merge with master
+1. "git checkout master"
+2. "git merge mybranch"
+3. "git branch -d mybranch" deletes the branch
