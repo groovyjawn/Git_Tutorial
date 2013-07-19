@@ -1,4 +1,4 @@
-# Instructions for creating a new Git Project:
+# Initialize Git Repository
 1. Create a project directory. (e.g. NullModel_Algorithm)
 2. "git init" to setup the git necessary git files.
 3. "touch README" to create a descriptive README file of the project
@@ -8,8 +8,19 @@
 7. "git push origin master" sends the commits to the 'master' branch
 
 # Set these configs so that these params only need to be entered once
-git config --global user.name "groovyjawn"
-git config --global user.email "sessinger@gmail.com"
+"git config --global user.name "groovyjawn""
+"git config --global user.email "sessinger@gmail.com""
 
 # Copy a Git Project to Local Project
-git clone https://github.com/groovyjawn/myrepo.git  
+"git clone https://github.com/groovyjawn/myrepo.git"                      
+
+# Forking a Repository: Copy A Repository to My Repositories 
+1. Forking is done online.
+2. "git clone https://github.com/groovyjawn/Spoon-Knife.git"
+3. "git push origin master" commits just like before
+   
+# To keep track of the original repository add the remote site, name it upstream
+1. "git remote add upstream https://github.com/octocat/spoon-knife.git"
+2. "git fetch upstream" pull in changes from original without modify my files
+3. "git merge master/upstream" merges any changes with my files
+
