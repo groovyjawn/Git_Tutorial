@@ -1,1 +1,10 @@
-Hello World!
+Instructions for creating a new Git Project:
+
+1. Create a project directory. (e.g. NullModel_Algorithm)
+2. "git init" to setup the git necessary git files.
+3. "touch README" to create a descriptive README file of the project
+4. "git add README" adds file to the list of files to be committed
+5. "git commit -m 'first commit'" commits the files and labels the commit
+6. "git remote add origin https://github.com/groovyjawn/NullModel_Algorithm.git
+7. "git push origin master" sends the commits to the 'master' branch
+
