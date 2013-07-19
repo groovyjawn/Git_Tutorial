@@ -1,5 +1,4 @@
-Instructions for creating a new Git Project:
-
+# Instructions for creating a new Git Project:
 1. Create a project directory. (e.g. NullModel_Algorithm)
 2. "git init" to setup the git necessary git files.
 3. "touch README" to create a descriptive README file of the project
@@ -8,3 +7,9 @@ Instructions for creating a new Git Project:
 6. "git remote add origin https://github.com/groovyjawn/NullModel_Algorithm.git
 7. "git push origin master" sends the commits to the 'master' branch
 
+# Set these configs so that these params only need to be entered once
+git config --global user.name "groovyjawn"
+git config --global user.email "sessinger@gmail.com"
+
+# Copy a Git Project to Local Project
+git clone https://github.com/groovyjawn/myrepo.git  
